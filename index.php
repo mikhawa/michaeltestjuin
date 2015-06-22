@@ -11,7 +11,8 @@ and open the template in the editor.
     </head>
     <body>
         <?php
-        // put your code here
+        $ladate = date("YmdHis");
+        echo $ladate." ".  strlen($ladate);
         ?>
     </body>
 </html>
